@@ -8,6 +8,9 @@
   },
   "author": "MBarzizza",
   "license": "MIT",
+  "bin":{
+    "honeydew":"./bin/honeydew.js"
+    },
   "dependencies": {
     "chalk": "^1.1.1",
     "cli-cursor": "^1.0.2",
@@ -15,5 +18,8 @@
     "denodeify": "^1.2.1",
     "graceful-fs": "^4.1.3",
     "home": "^1.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1"
   }
 }
